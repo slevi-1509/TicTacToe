@@ -1,0 +1,27 @@
+#gameBoard {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+}
+.box{
+    box-sizing: border-box;
+    width:100px;
+    height:100px;
+    background: pink;
+    border:2px black solid;
+    margin:2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#player1,#player2{
+    border:2px red solid;
+    padding:2px 5px;
+    margin:10px;
+}
+#players{
+    display:flex;
+}
